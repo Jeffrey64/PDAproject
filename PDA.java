@@ -8,8 +8,9 @@ import java.util.Scanner;
  */
 public class PDA
 {
-    int age;
-    
+    int age; 
+    Scanner sc=new Scanner(System.in);
+    int LOWER_BOUND = 0;
     /**
      * Constructor for objects of class PDA
      */
