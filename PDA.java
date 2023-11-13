@@ -29,8 +29,13 @@ public class PDA
             System.out.println("How old are you?");
             try {
                 age = scanner.nextInt();
-                System.out.println(age);
+                if (age < LOWER_BOUND) {
+                    System.out.println(age+" is too young!!");
+                } else { 
+                    System.out.println("Computations go here");
+                }
             } catch (InputMismatchException error) {
+                scanner.next();
                 System.out.println("Please enter an integer");
             }
         }
