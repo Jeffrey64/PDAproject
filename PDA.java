@@ -30,8 +30,8 @@ public class PDA
             try {
                 age = scanner.nextInt();
                 if (age < LOWER_BOUND) {
-                    System.out.println(age+" is too young!!");
-                } else { 
+                    System.out.println(age+" is too young!!!");
+                } else {
                     System.out.println("Computations go here");
                 }
             } catch (InputMismatchException error) {
